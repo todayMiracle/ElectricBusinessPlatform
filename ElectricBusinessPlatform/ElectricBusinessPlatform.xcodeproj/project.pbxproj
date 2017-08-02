@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288484391F31CE400099CE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288484381F31CE400099CE66 /* main.m */; };
+		2884843C1F31CE400099CE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884843B1F31CE400099CE66 /* AppDelegate.m */; };
+		2884843F1F31CE400099CE66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884843E1F31CE400099CE66 /* ViewController.m */; };
+		288484421F31CE400099CE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288484401F31CE400099CE66 /* Main.storyboard */; };
+		288484441F31CE400099CE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288484431F31CE400099CE66 /* Assets.xcassets */; };
+		288484471F31CE400099CE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288484451F31CE400099CE66 /* LaunchScreen.storyboard */; };
+		288484521F31CE400099CE66 /* ElectricBusinessPlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288484511F31CE400099CE66 /* ElectricBusinessPlatformTests.m */; };
+		2884845D1F31CE400099CE66 /* ElectricBusinessPlatformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884845C1F31CE400099CE66 /* ElectricBusinessPlatformUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2884844E1F31CE400099CE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2884842C1F31CE400099CE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288484331F31CE400099CE66;
+			remoteInfo = ElectricBusinessPlatform;
+		};
+		288484591F31CE400099CE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2884842C1F31CE400099CE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288484331F31CE400099CE66;
+			remoteInfo = ElectricBusinessPlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288484341F31CE400099CE66 /* ElectricBusinessPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricBusinessPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288484381F31CE400099CE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2884843A1F31CE400099CE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2884843B1F31CE400099CE66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2884843D1F31CE400099CE66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2884843E1F31CE400099CE66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		288484411F31CE400099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288484431F31CE400099CE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288484461F31CE400099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288484481F31CE400099CE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2884844D1F31CE400099CE66 /* ElectricBusinessPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricBusinessPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288484511F31CE400099CE66 /* ElectricBusinessPlatformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricBusinessPlatformTests.m; sourceTree = "<group>"; };
+		288484531F31CE400099CE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288484581F31CE400099CE66 /* ElectricBusinessPlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricBusinessPlatformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884845C1F31CE400099CE66 /* ElectricBusinessPlatformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricBusinessPlatformUITests.m; sourceTree = "<group>"; };
+		2884845E1F31CE400099CE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288484311F31CE400099CE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884844A1F31CE400099CE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288484551F31CE400099CE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2884842B1F31CE3F0099CE66 = {
+			isa = PBXGroup;
+			children = (
+				288484361F31CE400099CE66 /* ElectricBusinessPlatform */,
+				288484501F31CE400099CE66 /* ElectricBusinessPlatformTests */,
+				2884845B1F31CE400099CE66 /* ElectricBusinessPlatformUITests */,
+				288484351F31CE400099CE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288484351F31CE400099CE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288484341F31CE400099CE66 /* ElectricBusinessPlatform.app */,
+				2884844D1F31CE400099CE66 /* ElectricBusinessPlatformTests.xctest */,
+				288484581F31CE400099CE66 /* ElectricBusinessPlatformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288484361F31CE400099CE66 /* ElectricBusinessPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				2884843A1F31CE400099CE66 /* AppDelegate.h */,
+				2884843B1F31CE400099CE66 /* AppDelegate.m */,
+				2884843D1F31CE400099CE66 /* ViewController.h */,
+				2884843E1F31CE400099CE66 /* ViewController.m */,
+				288484401F31CE400099CE66 /* Main.storyboard */,
+				288484431F31CE400099CE66 /* Assets.xcassets */,
+				288484451F31CE400099CE66 /* LaunchScreen.storyboard */,
+				288484481F31CE400099CE66 /* Info.plist */,
+				288484371F31CE400099CE66 /* Supporting Files */,
+			);
+			path = ElectricBusinessPlatform;
+			sourceTree = "<group>";
+		};
+		288484371F31CE400099CE66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288484381F31CE400099CE66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288484501F31CE400099CE66 /* ElectricBusinessPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				288484511F31CE400099CE66 /* ElectricBusinessPlatformTests.m */,
+				288484531F31CE400099CE66 /* Info.plist */,
+			);
+			path = ElectricBusinessPlatformTests;
+			sourceTree = "<group>";
+		};
+		2884845B1F31CE400099CE66 /* ElectricBusinessPlatformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2884845C1F31CE400099CE66 /* ElectricBusinessPlatformUITests.m */,
+				2884845E1F31CE400099CE66 /* Info.plist */,
+			);
+			path = ElectricBusinessPlatformUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288484331F31CE400099CE66 /* ElectricBusinessPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288484611F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatform" */;
+			buildPhases = (
+				288484301F31CE400099CE66 /* Sources */,
+				288484311F31CE400099CE66 /* Frameworks */,
+				288484321F31CE400099CE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricBusinessPlatform;
+			productName = ElectricBusinessPlatform;
+			productReference = 288484341F31CE400099CE66 /* ElectricBusinessPlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2884844C1F31CE400099CE66 /* ElectricBusinessPlatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288484641F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatformTests" */;
+			buildPhases = (
+				288484491F31CE400099CE66 /* Sources */,
+				2884844A1F31CE400099CE66 /* Frameworks */,
+				2884844B1F31CE400099CE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2884844F1F31CE400099CE66 /* PBXTargetDependency */,
+			);
+			name = ElectricBusinessPlatformTests;
+			productName = ElectricBusinessPlatformTests;
+			productReference = 2884844D1F31CE400099CE66 /* ElectricBusinessPlatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		288484571F31CE400099CE66 /* ElectricBusinessPlatformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288484671F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatformUITests" */;
+			buildPhases = (
+				288484541F31CE400099CE66 /* Sources */,
+				288484551F31CE400099CE66 /* Frameworks */,
+				288484561F31CE400099CE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2884845A1F31CE400099CE66 /* PBXTargetDependency */,
+			);
+			name = ElectricBusinessPlatformUITests;
+			productName = ElectricBusinessPlatformUITests;
+			productReference = 288484581F31CE400099CE66 /* ElectricBusinessPlatformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2884842C1F31CE400099CE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XieShichang;
+				TargetAttributes = {
+					288484331F31CE400099CE66 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2884844C1F31CE400099CE66 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288484331F31CE400099CE66;
+					};
+					288484571F31CE400099CE66 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288484331F31CE400099CE66;
+					};
+				};
+			};
+			buildConfigurationList = 2884842F1F31CE400099CE66 /* Build configuration list for PBXProject "ElectricBusinessPlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2884842B1F31CE3F0099CE66;
+			productRefGroup = 288484351F31CE400099CE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288484331F31CE400099CE66 /* ElectricBusinessPlatform */,
+				2884844C1F31CE400099CE66 /* ElectricBusinessPlatformTests */,
+				288484571F31CE400099CE66 /* ElectricBusinessPlatformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288484321F31CE400099CE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288484471F31CE400099CE66 /* LaunchScreen.storyboard in Resources */,
+				288484441F31CE400099CE66 /* Assets.xcassets in Resources */,
+				288484421F31CE400099CE66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884844B1F31CE400099CE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288484561F31CE400099CE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288484301F31CE400099CE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2884843F1F31CE400099CE66 /* ViewController.m in Sources */,
+				2884843C1F31CE400099CE66 /* AppDelegate.m in Sources */,
+				288484391F31CE400099CE66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288484491F31CE400099CE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288484521F31CE400099CE66 /* ElectricBusinessPlatformTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288484541F31CE400099CE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2884845D1F31CE400099CE66 /* ElectricBusinessPlatformUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2884844F1F31CE400099CE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288484331F31CE400099CE66 /* ElectricBusinessPlatform */;
+			targetProxy = 2884844E1F31CE400099CE66 /* PBXContainerItemProxy */;
+		};
+		2884845A1F31CE400099CE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288484331F31CE400099CE66 /* ElectricBusinessPlatform */;
+			targetProxy = 288484591F31CE400099CE66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288484401F31CE400099CE66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288484411F31CE400099CE66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288484451F31CE400099CE66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288484461F31CE400099CE66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2884845F1F31CE400099CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		288484601F31CE400099CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288484621F31CE400099CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElectricBusinessPlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		288484631F31CE400099CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElectricBusinessPlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		288484651F31CE400099CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricBusinessPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricBusinessPlatform.app/ElectricBusinessPlatform";
+			};
+			name = Debug;
+		};
+		288484661F31CE400099CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricBusinessPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricBusinessPlatform.app/ElectricBusinessPlatform";
+			};
+			name = Release;
+		};
+		288484681F31CE400099CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricBusinessPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricBusinessPlatform;
+			};
+			name = Debug;
+		};
+		288484691F31CE400099CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricBusinessPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricBusinessPlatform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2884842F1F31CE400099CE66 /* Build configuration list for PBXProject "ElectricBusinessPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2884845F1F31CE400099CE66 /* Debug */,
+				288484601F31CE400099CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288484611F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288484621F31CE400099CE66 /* Debug */,
+				288484631F31CE400099CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288484641F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288484651F31CE400099CE66 /* Debug */,
+				288484661F31CE400099CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288484671F31CE400099CE66 /* Build configuration list for PBXNativeTarget "ElectricBusinessPlatformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288484681F31CE400099CE66 /* Debug */,
+				288484691F31CE400099CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2884842C1F31CE400099CE66 /* Project object */;
+}
