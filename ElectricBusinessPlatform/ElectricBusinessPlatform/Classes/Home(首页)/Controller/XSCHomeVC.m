@@ -7,9 +7,12 @@
 //
 
 #import "XSCHomeVC.h"
+
 #import "XSCGoodsGridCell.h"
 #import "XSCGoodsCountDownCell.h"
 #import "GTCollectionViewFlowLayout.h"
+#import "XSCGoodsGridsModel.h"
+#import "XSCRecommendModel.h"
 static NSString *const XSCGoodsGridCellID=@"XSCGoodsGridCell";
 static NSString *const XSCGoodsCountDownCellID=@"XSCGoodsCountDownCell";
 @interface XSCHomeVC ()<UICollectionViewDelegate,UICollectionViewDataSource>
@@ -50,6 +53,19 @@ static NSString *const XSCGoodsCountDownCellID=@"XSCGoodsCountDownCell";
 //    return _collectionV;
 //}
 //
+-(NSMutableArray*)grisaArray{
+    if (_grisaArray==nil) {
+        _grisaArray=[XSCGoodsGridsModel mj_objectArrayWithFilename:@"GoodsGrid.plist"];
+    }
+    return _grisaArray;
+}
+-(NSMutableArray*)youLikeItems{
+    if (_youLikeItems==nil) {
+        _youLikeItems=[XSCGoodsGridsModel mj_objectArrayWithFilename:@"HomeHighGoods.plist"];
+    }
+    return _youLikeItems;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -85,10 +101,10 @@ static NSString *const XSCGoodsCountDownCellID=@"XSCGoodsCountDownCell";
 #pragma mark---CollectionViewDalegate
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-//    if (section==0) {
-//        return 10;
-//    }
-    return 10;
+    if (section==0) {
+        return self.grisaArray.count;
+    }
+    return 0;
 }
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {

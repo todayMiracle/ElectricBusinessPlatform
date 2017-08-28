@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class XSCGoodsGridsModel;
 @interface XSCGoodsGridCell : UICollectionViewCell
-
+@property(nonatomic,strong)XSCGoodsGridsModel *model;
 @end
