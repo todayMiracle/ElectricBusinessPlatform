@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1841159D2290698D383BB9BE /* libPods-ElectricBusinessPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D391AC971FC65E1B92F189 /* libPods-ElectricBusinessPlatform.a */; };
+		280BA9AA1F60F1C300EA2361 /* XSCSlidesHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BA9A91F60F1C300EA2361 /* XSCSlidesHeadView.m */; };
+		280BA9B31F61646B00EA2361 /* XSCCountDownheadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BA9B21F61646B00EA2361 /* XSCCountDownheadView.m */; };
+		280BA9B61F616AC800EA2361 /* DCNumericalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BA9B51F616AC800EA2361 /* DCNumericalScrollView.m */; };
+		280BA9B91F616B0700EA2361 /* XSCSlidesFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BA9B81F616B0700EA2361 /* XSCSlidesFooterView.m */; };
+		2822B0A41F5FC282003027DC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0A31F5FC282003027DC /* UIView+Extension.m */; };
+		2822B0A71F5FE257003027DC /* XSCGoodsSurplusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0A61F5FE257003027DC /* XSCGoodsSurplusCell.m */; };
+		2822B0AA1F5FE4CD003027DC /* XSCGoodsSurplusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0A91F5FE4CD003027DC /* XSCGoodsSurplusModel.m */; };
+		2822B0AD1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0AC1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m */; };
+		2822B0B01F5FFA2A003027DC /* XSCGoodsGodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0AF1F5FFA2A003027DC /* XSCGoodsGodCell.m */; };
+		2822B0B31F6010F3003027DC /* XSCGoodsSectionThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */; };
+		2822B0B61F601C28003027DC /* XSCGoodsSectionFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */; };
+		2858A7451F62362F000E6497 /* NormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7441F62362F000E6497 /* NormalButton.m */; };
+		2858A7481F6241D0000E6497 /* SCLeftTitleRightImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7471F6241D0000E6497 /* SCLeftTitleRightImg.m */; };
+		2858A74B1F6249A3000E6497 /* SCScrollAdFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A74A1F6249A3000E6497 /* SCScrollAdFootView.m */; };
+		2858A74E1F626920000E6497 /* SCGoodsTagHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A74D1F626920000E6497 /* SCGoodsTagHeadView.m */; };
+		2858A7511F6269CF000E6497 /* SCRightImglefttitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7501F6269CF000E6497 /* SCRightImglefttitleBtn.m */; };
+		2858A7541F62758B000E6497 /* SCPromptingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7531F62758B000E6497 /* SCPromptingFooterView.m */; };
 		288484391F31CE400099CE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288484381F31CE400099CE66 /* main.m */; };
 		2884843F1F31CE400099CE66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884843E1F31CE400099CE66 /* ViewController.m */; };
 		288484421F31CE400099CE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288484401F31CE400099CE66 /* Main.storyboard */; };
@@ -47,6 +64,8 @@
 		28A05DC01F5413F400EE01B1 /* HomeHighGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28A05DAC1F5413F400EE01B1 /* HomeHighGoods.plist */; };
 		28A05DC31F54145400EE01B1 /* XSCGoodsGridsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A05DC21F54145400EE01B1 /* XSCGoodsGridsModel.m */; };
 		28A05DC61F54147D00EE01B1 /* XSCRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A05DC51F54147D00EE01B1 /* XSCRecommendModel.m */; };
+		28E30E151F5FA30A00AA7064 /* categeryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E30E141F5FA30A00AA7064 /* categeryButton.m */; };
+		28E30E181F5FA31300AA7064 /* JFTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E30E171F5FA31300AA7064 /* JFTLabel.m */; };
 		28E6B0261F4FF423004036AC /* XSCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6B0251F4FF423004036AC /* XSCTabBar.m */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +87,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280BA9A81F60F1C300EA2361 /* XSCSlidesHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCSlidesHeadView.h; sourceTree = "<group>"; };
+		280BA9A91F60F1C300EA2361 /* XSCSlidesHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCSlidesHeadView.m; sourceTree = "<group>"; };
+		280BA9B11F61646B00EA2361 /* XSCCountDownheadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCCountDownheadView.h; sourceTree = "<group>"; };
+		280BA9B21F61646B00EA2361 /* XSCCountDownheadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCCountDownheadView.m; sourceTree = "<group>"; };
+		280BA9B41F616AC800EA2361 /* DCNumericalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNumericalScrollView.h; sourceTree = "<group>"; };
+		280BA9B51F616AC800EA2361 /* DCNumericalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNumericalScrollView.m; sourceTree = "<group>"; };
+		280BA9B71F616B0700EA2361 /* XSCSlidesFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCSlidesFooterView.h; sourceTree = "<group>"; };
+		280BA9B81F616B0700EA2361 /* XSCSlidesFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCSlidesFooterView.m; sourceTree = "<group>"; };
+		2822B0A21F5FC282003027DC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2822B0A31F5FC282003027DC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2822B0A51F5FE257003027DC /* XSCGoodsSurplusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSurplusCell.h; sourceTree = "<group>"; };
+		2822B0A61F5FE257003027DC /* XSCGoodsSurplusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSurplusCell.m; sourceTree = "<group>"; };
+		2822B0A81F5FE4CD003027DC /* XSCGoodsSurplusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSurplusModel.h; sourceTree = "<group>"; };
+		2822B0A91F5FE4CD003027DC /* XSCGoodsSurplusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSurplusModel.m; sourceTree = "<group>"; };
+		2822B0AB1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSectionTwoCell.h; sourceTree = "<group>"; };
+		2822B0AC1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSectionTwoCell.m; sourceTree = "<group>"; };
+		2822B0AE1F5FFA2A003027DC /* XSCGoodsGodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsGodCell.h; sourceTree = "<group>"; };
+		2822B0AF1F5FFA2A003027DC /* XSCGoodsGodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsGodCell.m; sourceTree = "<group>"; };
+		2822B0B11F6010F3003027DC /* XSCGoodsSectionThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSectionThirdCell.h; sourceTree = "<group>"; };
+		2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSectionThirdCell.m; sourceTree = "<group>"; };
+		2822B0B41F601C28003027DC /* XSCGoodsSectionFourthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSectionFourthCell.h; sourceTree = "<group>"; };
+		2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSectionFourthCell.m; sourceTree = "<group>"; };
+		2858A7431F62362F000E6497 /* NormalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalButton.h; sourceTree = "<group>"; };
+		2858A7441F62362F000E6497 /* NormalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalButton.m; sourceTree = "<group>"; };
+		2858A7461F6241D0000E6497 /* SCLeftTitleRightImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLeftTitleRightImg.h; sourceTree = "<group>"; };
+		2858A7471F6241D0000E6497 /* SCLeftTitleRightImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLeftTitleRightImg.m; sourceTree = "<group>"; };
+		2858A7491F6249A3000E6497 /* SCScrollAdFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScrollAdFootView.h; sourceTree = "<group>"; };
+		2858A74A1F6249A3000E6497 /* SCScrollAdFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCScrollAdFootView.m; sourceTree = "<group>"; };
+		2858A74C1F626920000E6497 /* SCGoodsTagHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoodsTagHeadView.h; sourceTree = "<group>"; };
+		2858A74D1F626920000E6497 /* SCGoodsTagHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoodsTagHeadView.m; sourceTree = "<group>"; };
+		2858A74F1F6269CF000E6497 /* SCRightImglefttitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRightImglefttitleBtn.h; sourceTree = "<group>"; };
+		2858A7501F6269CF000E6497 /* SCRightImglefttitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRightImglefttitleBtn.m; sourceTree = "<group>"; };
+		2858A7521F62758B000E6497 /* SCPromptingFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPromptingFooterView.h; sourceTree = "<group>"; };
+		2858A7531F62758B000E6497 /* SCPromptingFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPromptingFooterView.m; sourceTree = "<group>"; };
 		288484341F31CE400099CE66 /* ElectricBusinessPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricBusinessPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288484381F31CE400099CE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2884843D1F31CE400099CE66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -126,6 +179,10 @@
 		28A05DC21F54145400EE01B1 /* XSCGoodsGridsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsGridsModel.m; sourceTree = "<group>"; };
 		28A05DC41F54147D00EE01B1 /* XSCRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCRecommendModel.h; sourceTree = "<group>"; };
 		28A05DC51F54147D00EE01B1 /* XSCRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCRecommendModel.m; sourceTree = "<group>"; };
+		28E30E131F5FA30A00AA7064 /* categeryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categeryButton.h; sourceTree = "<group>"; };
+		28E30E141F5FA30A00AA7064 /* categeryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categeryButton.m; sourceTree = "<group>"; };
+		28E30E161F5FA31300AA7064 /* JFTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTLabel.h; sourceTree = "<group>"; };
+		28E30E171F5FA31300AA7064 /* JFTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTLabel.m; sourceTree = "<group>"; };
 		28E6B0241F4FF423004036AC /* XSCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCTabBar.h; sourceTree = "<group>"; };
 		28E6B0251F4FF423004036AC /* XSCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCTabBar.m; sourceTree = "<group>"; };
 		28E6B0271F4FF685004036AC /* XSCElectricPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCElectricPCH.pch; sourceTree = "<group>"; };
@@ -166,6 +223,34 @@
 				57D391AC971FC65E1B92F189 /* libPods-ElectricBusinessPlatform.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280BA9A61F60EDBC00EA2361 /* footerV */ = {
+			isa = PBXGroup;
+			children = (
+				280BA9B41F616AC800EA2361 /* DCNumericalScrollView.h */,
+				280BA9B51F616AC800EA2361 /* DCNumericalScrollView.m */,
+				280BA9B71F616B0700EA2361 /* XSCSlidesFooterView.h */,
+				280BA9B81F616B0700EA2361 /* XSCSlidesFooterView.m */,
+				2858A7491F6249A3000E6497 /* SCScrollAdFootView.h */,
+				2858A74A1F6249A3000E6497 /* SCScrollAdFootView.m */,
+				2858A7521F62758B000E6497 /* SCPromptingFooterView.h */,
+				2858A7531F62758B000E6497 /* SCPromptingFooterView.m */,
+			);
+			path = footerV;
+			sourceTree = "<group>";
+		};
+		280BA9A71F60EDBC00EA2361 /* headerV */ = {
+			isa = PBXGroup;
+			children = (
+				280BA9A81F60F1C300EA2361 /* XSCSlidesHeadView.h */,
+				280BA9A91F60F1C300EA2361 /* XSCSlidesHeadView.m */,
+				280BA9B11F61646B00EA2361 /* XSCCountDownheadView.h */,
+				280BA9B21F61646B00EA2361 /* XSCCountDownheadView.m */,
+				2858A74C1F626920000E6497 /* SCGoodsTagHeadView.h */,
+				2858A74D1F626920000E6497 /* SCGoodsTagHeadView.m */,
+			);
+			path = headerV;
 			sourceTree = "<group>";
 		};
 		2884842B1F31CE3F0099CE66 = {
@@ -324,6 +409,8 @@
 		288484741F31D62B0099CE66 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				2822B0A21F5FC282003027DC /* UIView+Extension.h */,
+				2822B0A31F5FC282003027DC /* UIView+Extension.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -346,6 +433,16 @@
 		288484771F31D62B0099CE66 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				28E30E131F5FA30A00AA7064 /* categeryButton.h */,
+				28E30E141F5FA30A00AA7064 /* categeryButton.m */,
+				28E30E161F5FA31300AA7064 /* JFTLabel.h */,
+				28E30E171F5FA31300AA7064 /* JFTLabel.m */,
+				2858A7431F62362F000E6497 /* NormalButton.h */,
+				2858A7441F62362F000E6497 /* NormalButton.m */,
+				2858A7461F6241D0000E6497 /* SCLeftTitleRightImg.h */,
+				2858A7471F6241D0000E6497 /* SCLeftTitleRightImg.m */,
+				2858A74F1F6269CF000E6497 /* SCRightImglefttitleBtn.h */,
+				2858A7501F6269CF000E6497 /* SCRightImglefttitleBtn.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -376,6 +473,8 @@
 				28A05DC21F54145400EE01B1 /* XSCGoodsGridsModel.m */,
 				28A05DC41F54147D00EE01B1 /* XSCRecommendModel.h */,
 				28A05DC51F54147D00EE01B1 /* XSCRecommendModel.m */,
+				2822B0A81F5FE4CD003027DC /* XSCGoodsSurplusModel.h */,
+				2822B0A91F5FE4CD003027DC /* XSCGoodsSurplusModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,12 +482,24 @@
 		2884847B1F31D62B0099CE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				280BA9A61F60EDBC00EA2361 /* footerV */,
+				280BA9A71F60EDBC00EA2361 /* headerV */,
 				28A05D911F540C2700EE01B1 /* GTCollectionViewFlowLayout.h */,
 				28A05D921F540C2700EE01B1 /* GTCollectionViewFlowLayout.m */,
 				28A05D8B1F53FE6300EE01B1 /* XSCGoodsGridCell.h */,
 				28A05D8C1F53FE6300EE01B1 /* XSCGoodsGridCell.m */,
 				28A05D8E1F53FE9B00EE01B1 /* XSCGoodsCountDownCell.h */,
 				28A05D8F1F53FE9B00EE01B1 /* XSCGoodsCountDownCell.m */,
+				2822B0A51F5FE257003027DC /* XSCGoodsSurplusCell.h */,
+				2822B0A61F5FE257003027DC /* XSCGoodsSurplusCell.m */,
+				2822B0AB1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.h */,
+				2822B0AC1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m */,
+				2822B0AE1F5FFA2A003027DC /* XSCGoodsGodCell.h */,
+				2822B0AF1F5FFA2A003027DC /* XSCGoodsGodCell.m */,
+				2822B0B11F6010F3003027DC /* XSCGoodsSectionThirdCell.h */,
+				2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */,
+				2822B0B41F601C28003027DC /* XSCGoodsSectionFourthCell.h */,
+				2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -644,6 +755,7 @@
 				TargetAttributes = {
 					288484331F31CE400099CE66 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23T7BTJDYM;
 						ProvisioningStyle = Automatic;
 					};
 					2884844C1F31CE400099CE66 = {
@@ -778,20 +890,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280BA9B91F616B0700EA2361 /* XSCSlidesFooterView.m in Sources */,
+				2858A7511F6269CF000E6497 /* SCRightImglefttitleBtn.m in Sources */,
+				2822B0A41F5FC282003027DC /* UIView+Extension.m in Sources */,
+				2822B0B31F6010F3003027DC /* XSCGoodsSectionThirdCell.m in Sources */,
 				2884849D1F31E5B20099CE66 /* XSCMyAccountVC.m in Sources */,
+				2858A7481F6241D0000E6497 /* SCLeftTitleRightImg.m in Sources */,
+				2822B0B01F5FFA2A003027DC /* XSCGoodsGodCell.m in Sources */,
+				28E30E181F5FA31300AA7064 /* JFTLabel.m in Sources */,
+				280BA9B31F61646B00EA2361 /* XSCCountDownheadView.m in Sources */,
+				280BA9B61F616AC800EA2361 /* DCNumericalScrollView.m in Sources */,
 				28A05D931F540C2700EE01B1 /* GTCollectionViewFlowLayout.m in Sources */,
+				2858A74E1F626920000E6497 /* SCGoodsTagHeadView.m in Sources */,
+				2858A7541F62758B000E6497 /* SCPromptingFooterView.m in Sources */,
 				288484941F31E4E50099CE66 /* XSCHomeVC.m in Sources */,
 				2884848B1F31D62B0099CE66 /* AppDelegate.m in Sources */,
 				2884849A1F31E53A0099CE66 /* XSCShoppingCarVC.m in Sources */,
 				28A05DC31F54145400EE01B1 /* XSCGoodsGridsModel.m in Sources */,
 				2884843F1F31CE400099CE66 /* ViewController.m in Sources */,
+				2822B0AD1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m in Sources */,
+				2858A7451F62362F000E6497 /* NormalButton.m in Sources */,
 				28A05D901F53FE9B00EE01B1 /* XSCGoodsCountDownCell.m in Sources */,
+				2822B0B61F601C28003027DC /* XSCGoodsSectionFourthCell.m in Sources */,
 				288484911F31D6FA0099CE66 /* XSCTabBarVC.m in Sources */,
 				28A05DC61F54147D00EE01B1 /* XSCRecommendModel.m in Sources */,
 				28A05D8D1F53FE6300EE01B1 /* XSCGoodsGridCell.m in Sources */,
+				280BA9AA1F60F1C300EA2361 /* XSCSlidesHeadView.m in Sources */,
+				28E30E151F5FA30A00AA7064 /* categeryButton.m in Sources */,
 				2884848E1F31D6CD0099CE66 /* XSCNavigationController.m in Sources */,
+				2822B0A71F5FE257003027DC /* XSCGoodsSurplusCell.m in Sources */,
 				288484971F31E5110099CE66 /* XSCCategoryVC.m in Sources */,
 				28E6B0261F4FF423004036AC /* XSCTabBar.m in Sources */,
+				2822B0AA1F5FE4CD003027DC /* XSCGoodsSurplusModel.m in Sources */,
+				2858A74B1F6249A3000E6497 /* SCScrollAdFootView.m in Sources */,
 				288484391F31CE400099CE66 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -869,6 +1000,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -891,6 +1023,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "46650d59-371e-4d05-b379-796a224f7624";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -917,6 +1050,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -932,6 +1066,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "46650d59-371e-4d05-b379-796a224f7624";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -942,13 +1077,18 @@
 			baseConfigurationReference = E5A8193ADAFE1346D0E5AD60 /* Pods-ElectricBusinessPlatform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 23T7BTJDYM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ElectricBusinessPlatform/Classes/Expand(扩展)/Headers(头文件)/XSCElectricPCH.pch";
 				INFOPLIST_FILE = ElectricBusinessPlatform/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -957,13 +1097,17 @@
 			baseConfigurationReference = F3776453A5D5B4EBED45D265 /* Pods-ElectricBusinessPlatform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 23T7BTJDYM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ElectricBusinessPlatform/Classes/Expand(扩展)/Headers(头文件)/XSCElectricPCH.pch";
 				INFOPLIST_FILE = ElectricBusinessPlatform/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.xie.ElectricBusinessPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
