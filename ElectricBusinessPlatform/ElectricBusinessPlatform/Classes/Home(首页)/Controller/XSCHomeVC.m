@@ -7,6 +7,11 @@
 //
 
 #import "XSCHomeVC.h"
+#import "XSCNavigationController.h"
+#import "UIBarButtonItem+SCBarButtonItem.h"
+#import "SubLBXScanViewController.h"
+#import "SCRichScanResultVC.h"
+#import "SCGoodsSetVC.h"
 
 #import "XSCGoodsGridCell.h"
 #import "XSCGoodsCountDownCell.h"
@@ -68,11 +73,54 @@ static NSString *const SCPromptingFooterViewID=@"SCPromptingFooterView";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setNavigationbar];
+    
     [self setCollectionView];
     
   
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.barTintColor=RGBA(231, 23, 37, 1.0);
+}
 
+-(void)setNavigationbar{
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem ItemWithImage:@"richScan" withHightedImage:@"richScan" Target:self Action:@selector(leftBarButtonItemClick)];
+    
+}
+#pragma mark---导航栏左边----扫描二维码
+-(void)leftBarButtonItemClick{
+    
+    LBXScanViewStyle *style=[[LBXScanViewStyle alloc]init];
+    style.centerUpOffset=44;
+    style.photoframeAngleStyle=LBXScanViewPhotoframeAngleStyle_Outer;
+    style.photoframeLineW=6;
+    style.photoframeAngleW=24;
+    style.photoframeAngleH=24;
+    style.anmiationStyle=LBXScanViewAnimationStyle_None;
+    style.animationImage=[UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_light_green"];
+    
+    SubLBXScanViewController *richScanVC=[[SubLBXScanViewController alloc]init];
+    richScanVC.title=@"扫一扫";
+    richScanVC.style=style;
+    richScanVC.isQQSimulator=YES;
+    
+    typeof(self) WeakSelf=self;
+    
+    richScanVC.scanResult =^(NSString *resultStr){
+        SCRichScanResultVC *vc=[[SCRichScanResultVC alloc]init];
+        vc.url=resultStr;
+        vc.hidesBottomBarWhenPushed=YES;
+        [WeakSelf.navigationController pushViewController:vc animated:YES];
+    };
+    
+    XSCNavigationController *na=[[XSCNavigationController alloc]initWithRootViewController:richScanVC];
+    [self presentViewController:na animated:YES completion:nil];
+    
+    
+}
 -(void)setCollectionView{
     UICollectionViewFlowLayout* flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.minimumLineSpacing=0;
@@ -297,5 +345,12 @@ static NSString *const SCPromptingFooterViewID=@"SCPromptingFooterView";
     }
    
     return CGSizeZero;
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    SCGoodsSetVC *vc=[[SCGoodsSetVC alloc]init];
+    vc.hidesBottomBarWhenPushed=YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end

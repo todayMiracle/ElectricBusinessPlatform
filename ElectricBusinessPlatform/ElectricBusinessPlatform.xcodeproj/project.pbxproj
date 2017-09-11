@@ -19,12 +19,39 @@
 		2822B0B01F5FFA2A003027DC /* XSCGoodsGodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0AF1F5FFA2A003027DC /* XSCGoodsGodCell.m */; };
 		2822B0B31F6010F3003027DC /* XSCGoodsSectionThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */; };
 		2822B0B61F601C28003027DC /* XSCGoodsSectionFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */; };
+		28283E9A1F6388090011DF34 /* SCGoodsSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28283E991F6388090011DF34 /* SCGoodsSetVC.m */; };
+		28283E9D1F638AB50011DF34 /* SCNarSearchbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28283E9C1F638AB50011DF34 /* SCNarSearchbarView.m */; };
+		2828B4531F639A6E00B0C617 /* SCGoodsSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828B4521F639A6E00B0C617 /* SCGoodsSetCell.m */; };
+		2828B4561F639E0B00B0C617 /* SCGoodsSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828B4551F639E0B00B0C617 /* SCGoodsSetModel.m */; };
+		2828B4591F63C23400B0C617 /* SCGoodsSetTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828B4581F63C23400B0C617 /* SCGoodsSetTwoCell.m */; };
+		2849199A1F6626D00069E891 /* SCGooodsBottomDetailFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284919991F6626D00069E891 /* SCGooodsBottomDetailFootView.m */; };
 		2858A7451F62362F000E6497 /* NormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7441F62362F000E6497 /* NormalButton.m */; };
 		2858A7481F6241D0000E6497 /* SCLeftTitleRightImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7471F6241D0000E6497 /* SCLeftTitleRightImg.m */; };
 		2858A74B1F6249A3000E6497 /* SCScrollAdFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A74A1F6249A3000E6497 /* SCScrollAdFootView.m */; };
 		2858A74E1F626920000E6497 /* SCGoodsTagHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A74D1F626920000E6497 /* SCGoodsTagHeadView.m */; };
 		2858A7511F6269CF000E6497 /* SCRightImglefttitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7501F6269CF000E6497 /* SCRightImglefttitleBtn.m */; };
 		2858A7541F62758B000E6497 /* SCPromptingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7531F62758B000E6497 /* SCPromptingFooterView.m */; };
+		2858A7571F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7561F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.m */; };
+		2858A7801F6295CF000E6497 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2858A7591F6295CF000E6497 /* CodeScan.bundle */; };
+		2858A7811F6295CF000E6497 /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A75C1F6295CF000E6497 /* LBXScanLineAnimation.m */; };
+		2858A7821F6295CF000E6497 /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A75E1F6295CF000E6497 /* LBXScanNative.m */; };
+		2858A7831F6295CF000E6497 /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7601F6295CF000E6497 /* LBXScanNetAnimation.m */; };
+		2858A7841F6295CF000E6497 /* LBXScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7621F6295CF000E6497 /* LBXScanResult.m */; };
+		2858A7851F6295CF000E6497 /* LBXScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7641F6295CF000E6497 /* LBXScanVideoZoomView.m */; };
+		2858A7861F6295CF000E6497 /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7661F6295CF000E6497 /* LBXScanView.m */; };
+		2858A7871F6295CF000E6497 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7681F6295CF000E6497 /* LBXScanViewController.m */; };
+		2858A7881F6295CF000E6497 /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A76A1F6295CF000E6497 /* LBXScanViewStyle.m */; };
+		2858A7891F6295CF000E6497 /* LBXScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A76C1F6295CF000E6497 /* LBXScanWrapper.m */; };
+		2858A78A1F6295CF000E6497 /* LBXZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A76E1F6295CF000E6497 /* LBXZXCapture.m */; };
+		2858A78B1F6295CF000E6497 /* ZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7711F6295CF000E6497 /* ZXingWrapper.m */; };
+		2858A78C1F6295CF000E6497 /* LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7741F6295CF000E6497 /* LBXAlertAction.m */; };
+		2858A78D1F6295CF000E6497 /* MyQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7761F6295CF000E6497 /* MyQRViewController.m */; };
+		2858A78E1F6295CF000E6497 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7781F6295CF000E6497 /* ScanResultViewController.m */; };
+		2858A78F1F6295CF000E6497 /* ScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2858A7791F6295CF000E6497 /* ScanResultViewController.xib */; };
+		2858A7901F6295CF000E6497 /* SubLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A77B1F6295CF000E6497 /* SubLBXScanViewController.m */; };
+		2858A7911F6295CF000E6497 /* UIActionSheet+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A77D1F6295CF000E6497 /* UIActionSheet+LBXAlertAction.m */; };
+		2858A7921F6295CF000E6497 /* UIAlertView+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A77F1F6295CF000E6497 /* UIAlertView+LBXAlertAction.m */; };
+		2858A7951F629EEE000E6497 /* SCRichScanResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858A7941F629EEE000E6497 /* SCRichScanResultVC.m */; };
 		288484391F31CE400099CE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288484381F31CE400099CE66 /* main.m */; };
 		2884843F1F31CE400099CE66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884843E1F31CE400099CE66 /* ViewController.m */; };
 		288484421F31CE400099CE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288484401F31CE400099CE66 /* Main.storyboard */; };
@@ -109,6 +136,18 @@
 		2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSectionThirdCell.m; sourceTree = "<group>"; };
 		2822B0B41F601C28003027DC /* XSCGoodsSectionFourthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCGoodsSectionFourthCell.h; sourceTree = "<group>"; };
 		2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCGoodsSectionFourthCell.m; sourceTree = "<group>"; };
+		28283E981F6388090011DF34 /* SCGoodsSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoodsSetVC.h; sourceTree = "<group>"; };
+		28283E991F6388090011DF34 /* SCGoodsSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoodsSetVC.m; sourceTree = "<group>"; };
+		28283E9B1F638AB50011DF34 /* SCNarSearchbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCNarSearchbarView.h; path = ../Controller/SCNarSearchbarView.h; sourceTree = "<group>"; };
+		28283E9C1F638AB50011DF34 /* SCNarSearchbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCNarSearchbarView.m; path = ../Controller/SCNarSearchbarView.m; sourceTree = "<group>"; };
+		2828B4511F639A6E00B0C617 /* SCGoodsSetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoodsSetCell.h; sourceTree = "<group>"; };
+		2828B4521F639A6E00B0C617 /* SCGoodsSetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoodsSetCell.m; sourceTree = "<group>"; };
+		2828B4541F639E0B00B0C617 /* SCGoodsSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoodsSetModel.h; sourceTree = "<group>"; };
+		2828B4551F639E0B00B0C617 /* SCGoodsSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoodsSetModel.m; sourceTree = "<group>"; };
+		2828B4571F63C23400B0C617 /* SCGoodsSetTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGoodsSetTwoCell.h; sourceTree = "<group>"; };
+		2828B4581F63C23400B0C617 /* SCGoodsSetTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGoodsSetTwoCell.m; sourceTree = "<group>"; };
+		284919981F6626D00069E891 /* SCGooodsBottomDetailFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGooodsBottomDetailFootView.h; sourceTree = "<group>"; };
+		284919991F6626D00069E891 /* SCGooodsBottomDetailFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGooodsBottomDetailFootView.m; sourceTree = "<group>"; };
 		2858A7431F62362F000E6497 /* NormalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalButton.h; sourceTree = "<group>"; };
 		2858A7441F62362F000E6497 /* NormalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalButton.m; sourceTree = "<group>"; };
 		2858A7461F6241D0000E6497 /* SCLeftTitleRightImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLeftTitleRightImg.h; sourceTree = "<group>"; };
@@ -121,6 +160,47 @@
 		2858A7501F6269CF000E6497 /* SCRightImglefttitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRightImglefttitleBtn.m; sourceTree = "<group>"; };
 		2858A7521F62758B000E6497 /* SCPromptingFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPromptingFooterView.h; sourceTree = "<group>"; };
 		2858A7531F62758B000E6497 /* SCPromptingFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPromptingFooterView.m; sourceTree = "<group>"; };
+		2858A7551F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SCBarButtonItem.h"; sourceTree = "<group>"; };
+		2858A7561F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SCBarButtonItem.m"; sourceTree = "<group>"; };
+		2858A7591F6295CF000E6497 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		2858A75B1F6295CF000E6497 /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
+		2858A75C1F6295CF000E6497 /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
+		2858A75D1F6295CF000E6497 /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		2858A75E1F6295CF000E6497 /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
+		2858A75F1F6295CF000E6497 /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
+		2858A7601F6295CF000E6497 /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
+		2858A7611F6295CF000E6497 /* LBXScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanResult.h; sourceTree = "<group>"; };
+		2858A7621F6295CF000E6497 /* LBXScanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanResult.m; sourceTree = "<group>"; };
+		2858A7631F6295CF000E6497 /* LBXScanVideoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanVideoZoomView.h; sourceTree = "<group>"; };
+		2858A7641F6295CF000E6497 /* LBXScanVideoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanVideoZoomView.m; sourceTree = "<group>"; };
+		2858A7651F6295CF000E6497 /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
+		2858A7661F6295CF000E6497 /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
+		2858A7671F6295CF000E6497 /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
+		2858A7681F6295CF000E6497 /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
+		2858A7691F6295CF000E6497 /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
+		2858A76A1F6295CF000E6497 /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
+		2858A76B1F6295CF000E6497 /* LBXScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanWrapper.h; sourceTree = "<group>"; };
+		2858A76C1F6295CF000E6497 /* LBXScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanWrapper.m; sourceTree = "<group>"; };
+		2858A76D1F6295CF000E6497 /* LBXZXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCapture.h; sourceTree = "<group>"; };
+		2858A76E1F6295CF000E6497 /* LBXZXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXZXCapture.m; sourceTree = "<group>"; };
+		2858A76F1F6295CF000E6497 /* LBXZXCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCaptureDelegate.h; sourceTree = "<group>"; };
+		2858A7701F6295CF000E6497 /* ZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWrapper.h; sourceTree = "<group>"; };
+		2858A7711F6295CF000E6497 /* ZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXingWrapper.m; sourceTree = "<group>"; };
+		2858A7731F6295CF000E6497 /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
+		2858A7741F6295CF000E6497 /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
+		2858A7751F6295CF000E6497 /* MyQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRViewController.h; sourceTree = "<group>"; };
+		2858A7761F6295CF000E6497 /* MyQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRViewController.m; sourceTree = "<group>"; };
+		2858A7771F6295CF000E6497 /* ScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
+		2858A7781F6295CF000E6497 /* ScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
+		2858A7791F6295CF000E6497 /* ScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanResultViewController.xib; sourceTree = "<group>"; };
+		2858A77A1F6295CF000E6497 /* SubLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLBXScanViewController.h; sourceTree = "<group>"; };
+		2858A77B1F6295CF000E6497 /* SubLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLBXScanViewController.m; sourceTree = "<group>"; };
+		2858A77C1F6295CF000E6497 /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
+		2858A77D1F6295CF000E6497 /* UIActionSheet+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+LBXAlertAction.m"; sourceTree = "<group>"; };
+		2858A77E1F6295CF000E6497 /* UIAlertView+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LBXAlertAction.h"; sourceTree = "<group>"; };
+		2858A77F1F6295CF000E6497 /* UIAlertView+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+LBXAlertAction.m"; sourceTree = "<group>"; };
+		2858A7931F629EEE000E6497 /* SCRichScanResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRichScanResultVC.h; sourceTree = "<group>"; };
+		2858A7941F629EEE000E6497 /* SCRichScanResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRichScanResultVC.m; sourceTree = "<group>"; };
 		288484341F31CE400099CE66 /* ElectricBusinessPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricBusinessPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288484381F31CE400099CE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2884843D1F31CE400099CE66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -236,6 +316,8 @@
 				2858A74A1F6249A3000E6497 /* SCScrollAdFootView.m */,
 				2858A7521F62758B000E6497 /* SCPromptingFooterView.h */,
 				2858A7531F62758B000E6497 /* SCPromptingFooterView.m */,
+				284919981F6626D00069E891 /* SCGooodsBottomDetailFootView.h */,
+				284919991F6626D00069E891 /* SCGooodsBottomDetailFootView.m */,
 			);
 			path = footerV;
 			sourceTree = "<group>";
@@ -251,6 +333,66 @@
 				2858A74D1F626920000E6497 /* SCGoodsTagHeadView.m */,
 			);
 			path = headerV;
+			sourceTree = "<group>";
+		};
+		2858A7581F6295CF000E6497 /* RichScan */ = {
+			isa = PBXGroup;
+			children = (
+				2858A7591F6295CF000E6497 /* CodeScan.bundle */,
+				2858A75A1F6295CF000E6497 /* LBXScan */,
+				2858A7721F6295CF000E6497 /* subLBX */,
+			);
+			path = RichScan;
+			sourceTree = "<group>";
+		};
+		2858A75A1F6295CF000E6497 /* LBXScan */ = {
+			isa = PBXGroup;
+			children = (
+				2858A75B1F6295CF000E6497 /* LBXScanLineAnimation.h */,
+				2858A75C1F6295CF000E6497 /* LBXScanLineAnimation.m */,
+				2858A75D1F6295CF000E6497 /* LBXScanNative.h */,
+				2858A75E1F6295CF000E6497 /* LBXScanNative.m */,
+				2858A75F1F6295CF000E6497 /* LBXScanNetAnimation.h */,
+				2858A7601F6295CF000E6497 /* LBXScanNetAnimation.m */,
+				2858A7611F6295CF000E6497 /* LBXScanResult.h */,
+				2858A7621F6295CF000E6497 /* LBXScanResult.m */,
+				2858A7631F6295CF000E6497 /* LBXScanVideoZoomView.h */,
+				2858A7641F6295CF000E6497 /* LBXScanVideoZoomView.m */,
+				2858A7651F6295CF000E6497 /* LBXScanView.h */,
+				2858A7661F6295CF000E6497 /* LBXScanView.m */,
+				2858A7671F6295CF000E6497 /* LBXScanViewController.h */,
+				2858A7681F6295CF000E6497 /* LBXScanViewController.m */,
+				2858A7691F6295CF000E6497 /* LBXScanViewStyle.h */,
+				2858A76A1F6295CF000E6497 /* LBXScanViewStyle.m */,
+				2858A76B1F6295CF000E6497 /* LBXScanWrapper.h */,
+				2858A76C1F6295CF000E6497 /* LBXScanWrapper.m */,
+				2858A76D1F6295CF000E6497 /* LBXZXCapture.h */,
+				2858A76E1F6295CF000E6497 /* LBXZXCapture.m */,
+				2858A76F1F6295CF000E6497 /* LBXZXCaptureDelegate.h */,
+				2858A7701F6295CF000E6497 /* ZXingWrapper.h */,
+				2858A7711F6295CF000E6497 /* ZXingWrapper.m */,
+			);
+			path = LBXScan;
+			sourceTree = "<group>";
+		};
+		2858A7721F6295CF000E6497 /* subLBX */ = {
+			isa = PBXGroup;
+			children = (
+				2858A7731F6295CF000E6497 /* LBXAlertAction.h */,
+				2858A7741F6295CF000E6497 /* LBXAlertAction.m */,
+				2858A7751F6295CF000E6497 /* MyQRViewController.h */,
+				2858A7761F6295CF000E6497 /* MyQRViewController.m */,
+				2858A7771F6295CF000E6497 /* ScanResultViewController.h */,
+				2858A7781F6295CF000E6497 /* ScanResultViewController.m */,
+				2858A7791F6295CF000E6497 /* ScanResultViewController.xib */,
+				2858A77A1F6295CF000E6497 /* SubLBXScanViewController.h */,
+				2858A77B1F6295CF000E6497 /* SubLBXScanViewController.m */,
+				2858A77C1F6295CF000E6497 /* UIActionSheet+LBXAlertAction.h */,
+				2858A77D1F6295CF000E6497 /* UIActionSheet+LBXAlertAction.m */,
+				2858A77E1F6295CF000E6497 /* UIAlertView+LBXAlertAction.h */,
+				2858A77F1F6295CF000E6497 /* UIAlertView+LBXAlertAction.m */,
+			);
+			path = subLBX;
 			sourceTree = "<group>";
 		};
 		2884842B1F31CE3F0099CE66 = {
@@ -411,6 +553,8 @@
 			children = (
 				2822B0A21F5FC282003027DC /* UIView+Extension.h */,
 				2822B0A31F5FC282003027DC /* UIView+Extension.m */,
+				2858A7551F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.h */,
+				2858A7561F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -426,6 +570,7 @@
 		288484761F31D62B0099CE66 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2858A7581F6295CF000E6497 /* RichScan */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -462,6 +607,10 @@
 			children = (
 				288484921F31E4E50099CE66 /* XSCHomeVC.h */,
 				288484931F31E4E50099CE66 /* XSCHomeVC.m */,
+				2858A7931F629EEE000E6497 /* SCRichScanResultVC.h */,
+				2858A7941F629EEE000E6497 /* SCRichScanResultVC.m */,
+				28283E981F6388090011DF34 /* SCGoodsSetVC.h */,
+				28283E991F6388090011DF34 /* SCGoodsSetVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,6 +624,8 @@
 				28A05DC51F54147D00EE01B1 /* XSCRecommendModel.m */,
 				2822B0A81F5FE4CD003027DC /* XSCGoodsSurplusModel.h */,
 				2822B0A91F5FE4CD003027DC /* XSCGoodsSurplusModel.m */,
+				2828B4541F639E0B00B0C617 /* SCGoodsSetModel.h */,
+				2828B4551F639E0B00B0C617 /* SCGoodsSetModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -500,6 +651,12 @@
 				2822B0B21F6010F3003027DC /* XSCGoodsSectionThirdCell.m */,
 				2822B0B41F601C28003027DC /* XSCGoodsSectionFourthCell.h */,
 				2822B0B51F601C28003027DC /* XSCGoodsSectionFourthCell.m */,
+				28283E9B1F638AB50011DF34 /* SCNarSearchbarView.h */,
+				28283E9C1F638AB50011DF34 /* SCNarSearchbarView.m */,
+				2828B4511F639A6E00B0C617 /* SCGoodsSetCell.h */,
+				2828B4521F639A6E00B0C617 /* SCGoodsSetCell.m */,
+				2828B4571F63C23400B0C617 /* SCGoodsSetTwoCell.h */,
+				2828B4581F63C23400B0C617 /* SCGoodsSetTwoCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -802,9 +959,11 @@
 				28A05DB41F5413F400EE01B1 /* FootprintGoods.plist in Resources */,
 				28A05DB11F5413F400EE01B1 /* ClassifyTitles.plist in Resources */,
 				28A05DBB1F5413F400EE01B1 /* MyRecreationFlow.plist in Resources */,
+				2858A7801F6295CF000E6497 /* CodeScan.bundle in Resources */,
 				28A05DBE1F5413F400EE01B1 /* CountDownShop.plist in Resources */,
 				28A05DC01F5413F400EE01B1 /* HomeHighGoods.plist in Resources */,
 				288484471F31CE400099CE66 /* LaunchScreen.storyboard in Resources */,
+				2858A78F1F6295CF000E6497 /* ScanResultViewController.xib in Resources */,
 				28A05DAF1F5413F400EE01B1 /* ClassiftyGoods02.plist in Resources */,
 				28A05DB91F5413F400EE01B1 /* MessageNote.plist in Resources */,
 				28A05DBA1F5413F400EE01B1 /* MyBuyFlow.plist in Resources */,
@@ -891,6 +1050,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				280BA9B91F616B0700EA2361 /* XSCSlidesFooterView.m in Sources */,
+				2828B4531F639A6E00B0C617 /* SCGoodsSetCell.m in Sources */,
 				2858A7511F6269CF000E6497 /* SCRightImglefttitleBtn.m in Sources */,
 				2822B0A41F5FC282003027DC /* UIView+Extension.m in Sources */,
 				2822B0B31F6010F3003027DC /* XSCGoodsSectionThirdCell.m in Sources */,
@@ -898,29 +1058,53 @@
 				2858A7481F6241D0000E6497 /* SCLeftTitleRightImg.m in Sources */,
 				2822B0B01F5FFA2A003027DC /* XSCGoodsGodCell.m in Sources */,
 				28E30E181F5FA31300AA7064 /* JFTLabel.m in Sources */,
+				2828B4561F639E0B00B0C617 /* SCGoodsSetModel.m in Sources */,
 				280BA9B31F61646B00EA2361 /* XSCCountDownheadView.m in Sources */,
+				2858A7951F629EEE000E6497 /* SCRichScanResultVC.m in Sources */,
 				280BA9B61F616AC800EA2361 /* DCNumericalScrollView.m in Sources */,
+				2858A7821F6295CF000E6497 /* LBXScanNative.m in Sources */,
 				28A05D931F540C2700EE01B1 /* GTCollectionViewFlowLayout.m in Sources */,
 				2858A74E1F626920000E6497 /* SCGoodsTagHeadView.m in Sources */,
+				2828B4591F63C23400B0C617 /* SCGoodsSetTwoCell.m in Sources */,
 				2858A7541F62758B000E6497 /* SCPromptingFooterView.m in Sources */,
 				288484941F31E4E50099CE66 /* XSCHomeVC.m in Sources */,
+				2858A7891F6295CF000E6497 /* LBXScanWrapper.m in Sources */,
 				2884848B1F31D62B0099CE66 /* AppDelegate.m in Sources */,
+				2858A7861F6295CF000E6497 /* LBXScanView.m in Sources */,
 				2884849A1F31E53A0099CE66 /* XSCShoppingCarVC.m in Sources */,
 				28A05DC31F54145400EE01B1 /* XSCGoodsGridsModel.m in Sources */,
+				2858A7571F628A35000E6497 /* UIBarButtonItem+SCBarButtonItem.m in Sources */,
+				28283E9D1F638AB50011DF34 /* SCNarSearchbarView.m in Sources */,
+				2858A7911F6295CF000E6497 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				2884843F1F31CE400099CE66 /* ViewController.m in Sources */,
 				2822B0AD1F5FF6B5003027DC /* XSCGoodsSectionTwoCell.m in Sources */,
+				2849199A1F6626D00069E891 /* SCGooodsBottomDetailFootView.m in Sources */,
+				2858A78D1F6295CF000E6497 /* MyQRViewController.m in Sources */,
 				2858A7451F62362F000E6497 /* NormalButton.m in Sources */,
+				2858A78C1F6295CF000E6497 /* LBXAlertAction.m in Sources */,
 				28A05D901F53FE9B00EE01B1 /* XSCGoodsCountDownCell.m in Sources */,
 				2822B0B61F601C28003027DC /* XSCGoodsSectionFourthCell.m in Sources */,
+				2858A78E1F6295CF000E6497 /* ScanResultViewController.m in Sources */,
+				2858A7841F6295CF000E6497 /* LBXScanResult.m in Sources */,
 				288484911F31D6FA0099CE66 /* XSCTabBarVC.m in Sources */,
 				28A05DC61F54147D00EE01B1 /* XSCRecommendModel.m in Sources */,
+				2858A7831F6295CF000E6497 /* LBXScanNetAnimation.m in Sources */,
 				28A05D8D1F53FE6300EE01B1 /* XSCGoodsGridCell.m in Sources */,
+				2858A78A1F6295CF000E6497 /* LBXZXCapture.m in Sources */,
+				2858A7881F6295CF000E6497 /* LBXScanViewStyle.m in Sources */,
+				28283E9A1F6388090011DF34 /* SCGoodsSetVC.m in Sources */,
 				280BA9AA1F60F1C300EA2361 /* XSCSlidesHeadView.m in Sources */,
 				28E30E151F5FA30A00AA7064 /* categeryButton.m in Sources */,
 				2884848E1F31D6CD0099CE66 /* XSCNavigationController.m in Sources */,
+				2858A7901F6295CF000E6497 /* SubLBXScanViewController.m in Sources */,
 				2822B0A71F5FE257003027DC /* XSCGoodsSurplusCell.m in Sources */,
+				2858A7871F6295CF000E6497 /* LBXScanViewController.m in Sources */,
 				288484971F31E5110099CE66 /* XSCCategoryVC.m in Sources */,
 				28E6B0261F4FF423004036AC /* XSCTabBar.m in Sources */,
+				2858A78B1F6295CF000E6497 /* ZXingWrapper.m in Sources */,
+				2858A7851F6295CF000E6497 /* LBXScanVideoZoomView.m in Sources */,
+				2858A7921F6295CF000E6497 /* UIAlertView+LBXAlertAction.m in Sources */,
+				2858A7811F6295CF000E6497 /* LBXScanLineAnimation.m in Sources */,
 				2822B0AA1F5FE4CD003027DC /* XSCGoodsSurplusModel.m in Sources */,
 				2858A74B1F6249A3000E6497 /* SCScrollAdFootView.m in Sources */,
 				288484391F31CE400099CE66 /* main.m in Sources */,
